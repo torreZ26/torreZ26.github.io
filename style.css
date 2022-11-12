@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Pacifico;
+  src: url(Pacifico-Regular.ttf);
+}
+
+body{
+    background-color: #383838;
+    margin: 0%;
+}
+#nav{
+  background-color: #1f1f1f;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    border-left: 1px solid #bbb;
+  }
+
+  li:last-child{
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #b207ddb0;
+  }
+
+  #nome{
+    float: left;
+    color: #b207dd;
+    font-size: 20px;
+    border-left: none;
+    margin: -20px 0px -20px 10px;
+  }
+
+  #frase{
+    color: #fff;
+    font-family: monospace;
+    font-style: italic;
+  }
+  .divs{
+    background-color:#1f1f1f;
+    border: #1f1f1f;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+  }
+  #int{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  .titulo{
+    font-size: 25px;
+    color: #b207dd;
+  }
+  .desc{
+    color: #fff;
+    font-size: 13px;
+    font-style: italic;
+  }
+  .autor{
+    color: #bbb;
+  }
